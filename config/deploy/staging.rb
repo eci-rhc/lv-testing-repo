@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-set :app_domain, "defaultproject.stg.lotvue.com"
+set :app_domain, "testingrepo.stg.lotvue.com"
 set :branch, ENV['branch'] || :staging
 server fetch(:app_domain), user: 'ubuntu', roles: %w[app db web]
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
