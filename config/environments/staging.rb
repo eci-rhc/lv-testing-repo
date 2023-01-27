@@ -32,7 +32,7 @@ Rails.application.configure do
 
     config.active_support.deprecation = :notify
 
-    config.action_mailer.default_url_options = { :host => 'defaultproject.stg.lotvue.com' }
+    config.action_mailer.default_url_options = { :host => 'testingrepo.stg.lotvue.com' }
     config.active_storage.service = :amazon_staging
     config.action_mailer.smtp_settings = {
         address: "smtp.gmail.com",
