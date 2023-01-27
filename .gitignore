@@ -1,0 +1,13 @@
+log/*.log
+tmp
+/nbproject/private/
+config/database.yml
+config/database.yml.sample
+.byebug_history
+storage
+
+# Ignore master key for decrypting credentials and more.
+config/master.key
+config/database.yml
+config/shards.yml
+Resources/*

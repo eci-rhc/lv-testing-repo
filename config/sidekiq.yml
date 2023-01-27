@@ -1,0 +1,17 @@
+:logfile: ./log/sidekiq.log
+
+:concurrency: 3
+
+:pidfile: tmp/pids/sidekiq.pid
+
+:max_retries: 10
+
+:limits:
+  data_operations: 1
+  web_hooks: 1
+  ahoy: 1
+:queues:
+  - default_project_data_operations
+  - default_project_web_hooks
+  - ahoy
+  - default
